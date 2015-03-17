@@ -13,4 +13,4 @@ This program execute an iterative gaussian fit for an histogram given in input
 
 # utility, sound, ls_script
 
-This programs are only needed by the other 2
+These programs are only needed by the other 2
