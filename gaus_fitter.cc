@@ -27,6 +27,12 @@ int main(int argc, char* argv[]){
   TStopwatch time;
   time.Start(true);
 
+  breakLine();
+  std::cout<<"This program uses the name given in INPUT to localize the file and the histogram to analyze"<<std::endl;
+  breakLine();
+
+  std::cout<<"File: "<<argv[1]<<std::endl;
+  std::cout<<"Histogram: "<<argv[2]<<std::endl;
   TFile *file= TFile::Open(argv[1]);
   TH1D *histo= ((TH1D *)(file->Get(argv[2])));
 
