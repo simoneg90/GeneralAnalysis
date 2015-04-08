@@ -9,7 +9,8 @@ This program superimpose TH1D or TH1F or TH2D or TH2F from as many file as you g
 
 # gaus_fitter
 
-This program execute an iterative gaussian fit for an histogram given in input
+This program execute an iterative gaussian fit for an histogram given in input <\br>
+./gaus_fitter 'file_name.root' 'histo_name'
 
 # utility, sound, ls_script
 
